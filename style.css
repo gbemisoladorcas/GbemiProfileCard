@@ -1,0 +1,97 @@
+body {
+
+    background-image: url(BG.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Poppins;
+
+}
+
+.container {
+
+    background-color: white;
+    border-radius: 20px;
+    height: 587px;
+    width: 594px;
+    box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+img {
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px rgb(255, 255, 255) solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
+
+}
+
+.topcard {
+
+    height: 197px;
+    width: 594px;
+    background-image: linear-gradient(to right, rgba(73, 219, 221, 100), rgba(39, 118, 119, 100));
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.text {
+
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 60px;
+
+}
+
+#name {
+    font-size: larger;
+    font-weight: 500;
+}
+
+span {
+
+    color: rgba(0, 0, 0, 0.542);
+}
+
+.city {
+
+    color: rgba(0, 0, 0, 0.542);
+}
+
+.footer {
+
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 3px solid rgba(0, 0, 0, 0.173)
+}
+
+.footer>div {
+
+    margin: 16px;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.box1 {
+
+    text-align: center;
+
+}
